@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rezept_app_City" items="${citys}" z="aoi/Rrvgj29B9leGEe0D3pLkn3k=">
+        <table:table data="${citys}" id="l_com_rezept_app_City" path="/citys" z="XUelwmPHRLMcq+7lr/HRh8XdF08=">
+            <table:column id="c_com_rezept_app_City_country" property="country" z="/gpuHDBYL3KaP6XiPHbQCL1g5CU="/>
+            <table:column id="c_com_rezept_app_City_region" property="region" z="7yeeKn12bHLPR9jANbOvUEcDhqQ="/>
+            <table:column id="c_com_rezept_app_City_name" property="name" z="711RkDxIjTEaLZ+tef/jIE4f1XI="/>
+            <table:column id="c_com_rezept_app_City_latitude" property="latitude" z="Ne6Z30xc+psJNOY5R+LieRnSNKQ="/>
+        </table:table>
+    </page:list>
+</div>

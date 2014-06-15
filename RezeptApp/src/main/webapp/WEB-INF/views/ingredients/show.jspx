@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rezept_app_Ingredient" object="${ingredient}" path="/ingredients" z="Gzh0VaIoz1U5Qh6Hj1c8B3ZcnD8=">
+        <field:display field="ingredienttypeid" id="s_com_rezept_app_Ingredient_ingredienttypeid" object="${ingredient}" z="6K7Yni68insTcsU2bU5uiMuQCCw="/>
+        <field:display field="city" id="s_com_rezept_app_Ingredient_city" object="${ingredient}" z="bZHiZB+KAj3PtkmmEBj+FwIM31c="/>
+        <field:display field="brandname" id="s_com_rezept_app_Ingredient_brandname" object="${ingredient}" z="dweqbNmblQEW9RT+W+Gv1HU9Q80="/>
+    </page:show>
+</div>

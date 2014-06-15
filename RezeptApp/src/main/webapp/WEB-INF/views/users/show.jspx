@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rezept_app_User" object="${user}" path="/users" z="I8I7YuBzoWPkH/IpAd8WTyRUygI=">
+        <field:display field="recipes" id="s_com_rezept_app_User_recipes" object="${user}" z="5u1irMpadSglurNRgUveyVb1860="/>
+        <field:display field="city" id="s_com_rezept_app_User_city" object="${user}" z="Nl1g6bp2jBQTuKbL1fWmFuFF/Uc="/>
+        <field:display field="country" id="s_com_rezept_app_User_country" object="${user}" z="etUhEfycuLtDsZ+X0Ksn3F+Uda0="/>
+        <field:display field="password" id="s_com_rezept_app_User_password" object="${user}" z="Vfa0RrK8hqlotZV89q90u3x7fj4="/>
+        <field:display field="email" id="s_com_rezept_app_User_email" object="${user}" z="SLAQ73o0kMzRdFZKoe1UxfHagl8="/>
+        <field:display field="firstname" id="s_com_rezept_app_User_firstname" object="${user}" z="99X2O2dP00j9Vqo+128bOGDULo0="/>
+        <field:display field="lastname" id="s_com_rezept_app_User_lastname" object="${user}" z="CNiQtFs42PR8N5comaO0+uxK1Pk="/>
+        <field:display field="foto" id="s_com_rezept_app_User_foto" object="${user}" z="lPKQO8q56JPNUI73SUyTJeqjOUY="/>
+        <field:display field="isactive" id="s_com_rezept_app_User_isactive" object="${user}" z="3ufsTyD1MdLbHrHwZoNh+qNVdNE="/>
+    </page:show>
+</div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rezept_app_User" idField="username" modelAttribute="user" path="/users" versionField="none" z="/4ZJWbuaNuJOj47d1TvVOQeNTos=">
+        <field:select field="recipes" id="c_com_rezept_app_User_recipes" itemValue="id" items="${recipes}" multiple="true" path="/recipes" z="ZVj8M4uBt08VajF1wGeJd7QuG+k="/>
+        <field:simple field="friends" id="c_com_rezept_app_User_friends" messageCode="entity_reference_not_managed" messageCodeAttribute="Friend" z="KFtdSVyJ8AZRKYkNDFFZgxFtaMw="/>
+        <field:simple field="friends1" id="c_com_rezept_app_User_friends1" messageCode="entity_reference_not_managed" messageCodeAttribute="Friend" z="B53zMRdw+t1J6sXrl/t9mVzM0sk="/>
+        <field:simple field="ratings" id="c_com_rezept_app_User_ratings" messageCode="entity_reference_not_managed" messageCodeAttribute="Rating" z="ITMdqQbz307aaUA/4nuv+9cN2wo="/>
+        <field:simple field="recipes_" id="c_com_rezept_app_User_recipes_" messageCode="entity_reference_not_managed" messageCodeAttribute="Recipe" z="JAy7AygFpOBb2IunrMgoZbC9jts="/>
+        <field:select field="city" id="c_com_rezept_app_User_city" itemValue="id" items="${citys}" path="/citys" z="2CcVI4L9sB0hRyMqMJNBB0dNDL0="/>
+        <field:select field="country" id="c_com_rezept_app_User_country" itemValue="id" items="${citys}" path="/citys" z="SHUNKnMy+5OqDap5yoP3G6tfsC8="/>
+        <field:input field="password" id="c_com_rezept_app_User_password" required="true" z="d8eNvn4kETuw3v9VTsgPZCT6Wlc="/>
+        <field:input field="email" id="c_com_rezept_app_User_email" required="true" validationMessageCode="field_invalid_email" z="CqO50dQW3p+2lGU7PdoMsvUaQDo="/>
+        <field:input field="firstname" id="c_com_rezept_app_User_firstname" z="dcKR/tBHZX/NvVcKeye6DSLrkb0="/>
+        <field:input field="lastname" id="c_com_rezept_app_User_lastname" z="tbIZLApQjUgCiRnt61XYkniDw7U="/>
+        <field:input field="foto" id="c_com_rezept_app_User_foto" z="YThlDF/zOa2kltqq1myhiF+X7KM="/>
+        <field:checkbox field="isactive" id="c_com_rezept_app_User_isactive" z="neI6Re9dra2GOfaLq+N6yOkEqso="/>
+    </form:update>
+</div>

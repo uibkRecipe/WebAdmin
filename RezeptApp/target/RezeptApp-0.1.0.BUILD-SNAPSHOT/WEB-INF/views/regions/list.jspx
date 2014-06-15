@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rezept_app_Region" items="${regions}" z="UeFFVQaRGs5jN01b/zFPIZSciZE=">
+        <table:table data="${regions}" id="l_com_rezept_app_Region" path="/regions" z="XN6CrUoVVkvdH+IwcZ4lefKsXfI=">
+            <table:column id="c_com_rezept_app_Region_country" property="country" z="ZvQGOSBUqWsSmklLM4cR5G7kYuk="/>
+            <table:column id="c_com_rezept_app_Region_code" property="code" z="Jayso7UI8cGCzs8M6te3ZYlHA0o="/>
+            <table:column id="c_com_rezept_app_Region_name" property="name" z="WzYfkaSaL7MkLc0wms4V/MnlwPc="/>
+            <table:column id="c_com_rezept_app_Region_latitude" property="latitude" z="gZqWlE2rEnrIv3M0A4zS0KaNFsg="/>
+            <table:column id="c_com_rezept_app_Region_longitude" property="longitude" z="NpcnNbKCehq4HFSyHP1ve8m2tOM="/>
+            <table:column id="c_com_rezept_app_Region_cities" property="cities" z="8kMQKQjygVfoPmXW4bucNHAbyyU="/>
+        </table:table>
+    </page:list>
+</div>

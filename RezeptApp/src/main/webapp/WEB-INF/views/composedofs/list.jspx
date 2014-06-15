@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rezept_app_Composedof" items="${composedofs}" z="P1Xx5wUgCZOsSqPmlBMQ64wog6w=">
+        <table:table data="${composedofs}" id="l_com_rezept_app_Composedof" path="/composedofs" z="Us6HIuTNKpqxsioH7PPYPItlLew=">
+            <table:column id="c_com_rezept_app_Composedof_recipeid" property="recipeid" z="KK3DnwqutVVnDO90FXdx8ZwqKD4="/>
+            <table:column id="c_com_rezept_app_Composedof_ingredienttypeid" property="ingredienttypeid" z="IclV+ab644mKlhS4PbqS+Y2nIjI="/>
+            <table:column id="c_com_rezept_app_Composedof_quantity" property="quantity" z="bbMdnwf05bwWlcsyyJ4+posFvmY="/>
+        </table:table>
+    </page:list>
+</div>

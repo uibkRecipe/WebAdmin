@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rezept_app_Country" idField="code" modelAttribute="country" path="/countrys" versionField="none" z="e3aEJIRgec0aWyTyRpTTS2Z041o=">
+        <field:input field="name" id="c_com_rezept_app_Country_name" required="true" z="MU3jOj5yUd417a565PQcXanO8t0="/>
+        <field:input field="latitude" id="c_com_rezept_app_Country_latitude" required="true" validationMessageCode="field_invalid_number" z="LhQDk61xmtie7zCOYYzp8v9t9fI="/>
+        <field:input field="longitude" id="c_com_rezept_app_Country_longitude" required="true" validationMessageCode="field_invalid_number" z="PgX3GFgZc4yYI3VdvCgVU7pF8Qo="/>
+        <field:input field="regions" id="c_com_rezept_app_Country_regions" required="true" validationMessageCode="field_invalid_integer" z="vHyz2NgD9vQmGgJ7/FYUYVu9vxQ="/>
+    </form:update>
+</div>

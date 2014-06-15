@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rezept_app_Country" object="${country}" path="/countrys" z="7TZPJ4yEbauAi4JLYaJfli0c/58=">
+        <field:display field="name" id="s_com_rezept_app_Country_name" object="${country}" z="AZpeNy/QrvvObM3iQIRwsQZ0Vuk="/>
+        <field:display field="latitude" id="s_com_rezept_app_Country_latitude" object="${country}" z="Ach+f4FXYuYUFWag2kqlwuMvMh0="/>
+        <field:display field="longitude" id="s_com_rezept_app_Country_longitude" object="${country}" z="AcTOkovtpJsE6X9Vc9/WAbVHl5Y="/>
+        <field:display field="regions" id="s_com_rezept_app_Country_regions" object="${country}" z="GzGQ+XgSyCT/nso8t/jT4ylKFzI="/>
+    </page:show>
+</div>

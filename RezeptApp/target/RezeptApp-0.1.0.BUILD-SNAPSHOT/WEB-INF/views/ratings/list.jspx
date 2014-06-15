@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rezept_app_Rating" items="${ratings}" z="5jlezjcQ1yXCwxU3bhGDC22HoCQ=">
+        <table:table data="${ratings}" id="l_com_rezept_app_Rating" path="/ratings" z="kzY6C9PFv1B3J8+J4zYhJbkIzxw=">
+            <table:column id="c_com_rezept_app_Rating_recipeid" property="recipeid" z="2fNhiErsipLPZqiIC6pSHHP1OaY="/>
+            <table:column id="c_com_rezept_app_Rating_username" property="username" z="GiayzJah3Nz2GP3CYD+MK4RXYl8="/>
+            <table:column id="c_com_rezept_app_Rating_star" property="star" z="ZUbJvCy/wDkQHo7QvX1Q4BeF4Rs="/>
+            <table:column id="c_com_rezept_app_Rating_comment" property="comment" z="zqP+h64DsZnIPZ0QszvWJBiPiJ4="/>
+        </table:table>
+    </page:list>
+</div>

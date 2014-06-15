@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rezept_app_Friend" items="${friends}" z="sU632c1oGbfjigRqjskoz3NRvMU=">
+        <table:table data="${friends}" id="l_com_rezept_app_Friend" path="/friends" z="j8aTNSE63fvR3QNGwGvTXZjaGgk=">
+            <table:column id="c_com_rezept_app_Friend_username1" property="username1" z="n84njlIGSs5IHB3GkKyscKNcnqo="/>
+            <table:column id="c_com_rezept_app_Friend_username2" property="username2" z="B9u+CnpHi68GLN3BKRofMjmvsEA="/>
+            <table:column id="c_com_rezept_app_Friend_isaccepted" property="isaccepted" z="7pmjKFYAq/RNXdCusDWFGRqDFgY="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_friend" z="3xBesqWo6j9Regou5Td7OKKytL4=">
+            <menu:item id="i_friend_new" messageCode="global_menu_new" url="/friends?form" z="DDQjVjMaRrvAMPXl/qiN1h3D96s="/>
+            <menu:item id="i_friend_list" messageCode="global_menu_list" url="/friends?page=1&amp;size=${empty param.size ? 10 : param.size}" z="NULgXNDQIHyXSkRR3ggWpBqDSto="/>
+        </menu:category>
+        <menu:category id="c_user" z="uoTSf/uIZ821ZppidzS9aO776yk=">
+            <menu:item id="i_user_new" messageCode="global_menu_new" url="/users?form" z="Zv1m8u2rG+JFKcvJ+AHVVK0ey24="/>
+            <menu:item id="i_user_list" messageCode="global_menu_list" url="/users?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4MY4uybxa60Q1G2rlI5bOwg+sm0="/>
+        </menu:category>
+        <menu:category id="c_recipe" z="hZplfFy2KodHpP2OufOMr0vsgWE=">
+            <menu:item id="i_recipe_new" messageCode="global_menu_new" url="/recipes?form" z="VyGeZtaFke6dAFfcfV6nkiFw8kg="/>
+            <menu:item id="i_recipe_list" messageCode="global_menu_list" url="/recipes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="x/kIf6oj+Phyd8ZS4M0loj+E1Ds="/>
+        </menu:category>
+        <menu:category id="c_region" z="c6fLb1dSC6E3lOpc6tTzfRXdsVo=">
+            <menu:item id="i_region_new" messageCode="global_menu_new" url="/regions?form" z="zcyY7k/YcUshfD7FTv/o/904YhM="/>
+            <menu:item id="i_region_list" messageCode="global_menu_list" url="/regions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="R4yrjjgk2KXYIlMw++M9nLkYTpE="/>
+        </menu:category>
+        <menu:category id="c_ingredienttype" z="Q+SvdZiLsTQeLEtCPjeacLNeZxg=">
+            <menu:item id="i_ingredienttype_new" messageCode="global_menu_new" url="/ingredienttypes?form" z="xgaiT+UTdaI1VPjRikov+jLD9KI="/>
+            <menu:item id="i_ingredienttype_list" messageCode="global_menu_list" url="/ingredienttypes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eZrI3GXfjnmbNtQxrDrNawO01hA="/>
+        </menu:category>
+        <menu:category id="c_rating" z="8LO+DXAkJtoJxUYUGGpugedTkDM=">
+            <menu:item id="i_rating_new" messageCode="global_menu_new" url="/ratings?form" z="ht0feyY5dGi+JY0iQWXTpv8hKjU="/>
+            <menu:item id="i_rating_list" messageCode="global_menu_list" url="/ratings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fjmucAEjjBFzZNPmqXPMYv/OwSw="/>
+        </menu:category>
+        <menu:category id="c_ingredient" z="de19E8GCQu3hZjuVuBSOyG4K1DM=">
+            <menu:item id="i_ingredient_new" messageCode="global_menu_new" url="/ingredients?form" z="MpogjMgYuSDuUYjk+irK39MAyWc="/>
+            <menu:item id="i_ingredient_list" messageCode="global_menu_list" url="/ingredients?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WkbCrKrZM0xn47YKvMYgZUCcZRQ="/>
+        </menu:category>
+        <menu:category id="c_country" z="+9IFFFqXHr5bWdYjx7upDibmQfo=">
+            <menu:item id="i_country_new" messageCode="global_menu_new" url="/countrys?form" z="OnEHsuvR46cQji6jmcBL0pJOBMc="/>
+            <menu:item id="i_country_list" messageCode="global_menu_list" url="/countrys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="AwKhjnZH+dOj0X4glIoj4SVuHNY="/>
+        </menu:category>
+        <menu:category id="c_city" z="4hVKAkWoLVM4Da06LymSga9Sizg=">
+            <menu:item id="i_city_new" messageCode="global_menu_new" url="/citys?form" z="dbfrmJjWGvOtF7e23trrw/vQnRE="/>
+            <menu:item id="i_city_list" messageCode="global_menu_list" url="/citys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Yq246nbcmHRrSUSB+sOWkE5wtxQ="/>
+        </menu:category>
+        <menu:category id="c_composedof" z="gev3RrTQPJYYepszg1PlbCX64Rg=">
+            <menu:item id="i_composedof_new" messageCode="global_menu_new" url="/composedofs?form" z="8ZXNiMQzhnazAa3kFcbHMq4iAqM="/>
+            <menu:item id="i_composedof_list" messageCode="global_menu_list" url="/composedofs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Q9Io+peuJsMPT2sj6lwrp7XPZms="/>
+        </menu:category>
+    </menu:menu>
+</div>

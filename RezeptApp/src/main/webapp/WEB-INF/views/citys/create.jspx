@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_rezept_app_City" modelAttribute="city" path="/citys" render="${empty dependencies}" z="JGXlADKaXMVXyMdYaRZlZFpI+s8=">
+        <field:simple field="users" id="c_com_rezept_app_City_users" messageCode="entity_reference_not_managed" messageCodeAttribute="User" z="pu+k+SOrBokLIYayJ5ncmf0y1Jk="/>
+        <field:simple field="users1" id="c_com_rezept_app_City_users1" messageCode="entity_reference_not_managed" messageCodeAttribute="User" z="CrE9orNFcpK8DlktXMEkDfGwHvY="/>
+        <field:input field="country" id="c_com_rezept_app_City_country" required="true" z="ZBcInktw7irpX4THgchEuD6Rfcc="/>
+        <field:input field="region" id="c_com_rezept_app_City_region" required="true" z="QwvXp1FHULsLW0bpHLWsoJ6IIQ8="/>
+        <field:input field="name" id="c_com_rezept_app_City_name" required="true" z="Dla1VGlbmUa2WlLbjWjTDBf7kFM="/>
+        <field:input field="latitude" id="c_com_rezept_app_City_latitude" required="true" validationMessageCode="field_invalid_number" z="bUWQmEhEEDWdGe/aP8Mo8vgzB44="/>
+        <field:input field="longitude" id="c_com_rezept_app_City_longitude" required="true" validationMessageCode="field_invalid_number" z="b1S3aB3xbYK6JsovZ1rb2D/yxC0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_rezept_app_City" render="${not empty dependencies}" z="Ko3O15B/C6cr8zn8No3AH2YoWLM="/>
+</div>

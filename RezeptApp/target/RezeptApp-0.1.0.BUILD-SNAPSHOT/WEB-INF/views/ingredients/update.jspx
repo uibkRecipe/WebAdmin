@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rezept_app_Ingredient" modelAttribute="ingredient" path="/ingredients" versionField="none" z="FqJgqqMiA2BFwUr3uGx76VNc8xo=">
+        <field:select field="ingredienttypeid" id="c_com_rezept_app_Ingredient_ingredienttypeid" itemValue="id" items="${ingredienttypes}" path="/ingredienttypes" z="6fPwlKG+rI2vFvDYvRJi1ztIu3M="/>
+        <field:input field="city" id="c_com_rezept_app_Ingredient_city" required="true" validationMessageCode="field_invalid_integer" z="QkUS507e6dRacny42MoG6+eo8bI="/>
+        <field:input field="brandname" id="c_com_rezept_app_Ingredient_brandname" required="true" z="9boFf5wIGUepISmITDiR+Um2bEU="/>
+    </form:update>
+</div>
